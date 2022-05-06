@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>入力フォーム</title>
+<link rel="stylesheet" type="text/css" href="css/practiceTest8.css">
+</head>
+<body>
+
+  <h1>CUSTOMER INFORMATION</h1>
+
+  <form action=practiceTest8-2.html method="GET">
+    <table class="design">
+     <tr>
+       <th class="content">名前：</th>
+       <td class="input">
+         <input type="text" name="name" id="name" placeholder="山田　太郎" size="30" required>
+       </td>
+     </tr>
+
+     <tr>
+       <th class="content">メールアドレス：</th>
+       <td class="input">
+         <input type="text" name="address" id="address" placeholder="example@gmail.com" size="30" required>
+       </td>
+     </tr>
+
+      <tr>
+       <th class="content">誕生日：</th>
+       <td class="input">
+         <select name="month" class="form-select">
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+             <option value="6">6</option>
+             <option value="7">7</option>
+             <option value="8">8</option>
+             <option value="9">9</option>
+             <option value="10">10</option>
+             <option value="11">11</option>
+             <option value="12">12</option>
+         </select>
+
+         <select name="day" class="form-select">
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+             <option value="6">6</option>
+             <option value="7">7</option>
+             <option value="8">8</option>
+             <option value="9">9</option>
+             <option value="10">10</option>
+             <option value="11">11</option>
+             <option value="12">12</option>
+             <option value="13">13</option>
+             <option value="14">14</option>
+             <option value="15">15</option>
+             <option value="16">16</option>
+             <option value="17">17</option>
+             <option value="18">18</option>
+             <option value="19">19</option>
+             <option value="20">20</option>
+             <option value="21">21</option>
+             <option value="22">22</option>
+             <option value="23">23</option>
+             <option value="24">24</option>
+             <option value="25">25</option>
+             <option value="26">26</option>
+             <option value="27">27</option>
+             <option value="28">28</option>
+             <option value="29">29</option>
+             <option value="30">30</option>
+             <option value="31">31</option>
+         </select>
+       </td>
+     </tr>
+
+     <tr>
+       <th class="content">性別：</th>
+       <td class="input">
+        <label class="Sex">
+          <input type="radio" name="sex" value="男性">
+          <span class="sex-txt">男</span>
+        </label>
+        <label class="Sex">
+          <input type="radio" name="sex" value="女性">
+          <span class="sex-txt">女</span>
+        </label>
+       </td>
+    </tr>
+
+    <tr>
+      <th class="content">OS：</th>
+      <td class="input">
+       <label class="skill">
+         <input type="checkbox" name="os" value="Windows7">
+         <span class="contact-skill-txt">Windows7</span>
+       </label>
+       <label class="skill">
+         <input type="checkbox" name="os" value="Windows8">
+         <span class="contact-skill-txt">Windows8</span>
+       </label>
+       <label class="skill">
+         <input type="checkbox" name="os" value="Windows10">
+         <span class="contact-skill-txt">Windows10</span>
+       </label>
+       <label class="skill">
+         <input type="checkbox" name="os" value="Mac">
+         <span class="contact-skill-txt">Mac</span>
+       </label>
+       <label class="skill">
+         <input type="checkbox" name="os" value="Linux">
+         <span class="skill-txt">Linux</span>
+       </label>
+     </td>
+   </tr>
+
+   <tr>
+     <th class="content">ひとこと：</th>
+     <td class="input">
+       <textarea name="word" class="form-textarea"></textarea>
+     </td>
+   </tr>
+</table>
+
+<input type="submit" value="登録" formaction="practiceTest8-2.html" class="btn btn-border">
+
+</form>
+</body>
+</html>
